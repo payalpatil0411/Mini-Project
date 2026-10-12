@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add E-Waste - E-Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+
+        <h1>E-Tech</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Add E-Waste Section -->
+    <section class="ewaste-page">
+
+        <div class="ewaste-box">
+
+            <h2>Add Your E-Waste</h2>
+
+            <p>
+                Enter the details of the electronic
+                items you want to recycle.
+            </p>
+
+            <form action="request_pickup.html">
+
+                <label>Full Name</label>
+
+                <input type="text"
+                       placeholder="Enter your name"
+                       required>
+
+
+                <label>E-Waste Type</label>
+
+                <select required>
+                    <option value="">Select item type</option>
+                    <option>Mobile Phone</option>
+                    <option>Laptop</option>
+                    <option>Computer</option>
+                    <option>Tablet</option>
+                    <option>Television</option>
+                    <option>Printer</option>
+                    <option>Keyboard</option>
+                    <option>Mouse</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label>Brand</label>
+
+                <input type="text"
+                       placeholder="Enter brand name">
+
+
+                <label>Quantity</label>
+
+                <input type="number"
+                       min="1"
+                       placeholder="Enter quantity"
+                       required>
+
+
+                <label>Item Condition</label>
+
+                <select required>
+                    <option value="">Select condition</option>
+                    <option>Working</option>
+                    <option>Partially Working</option>
+                    <option>Not Working</option>
+                    <option>Damaged</option>
+                </select>
+
+
+                <label>Approximate Weight (kg)</label>
+
+                <input type="number"
+                       min="0.1"
+                       step="0.1"
+                       placeholder="Enter weight">
+
+
+                <label>Additional Details</label>
+
+                <textarea rows="4"
+                          placeholder="Describe your electronic item"></textarea>
+
+
+                <button type="submit">
+                    Continue to Pickup
+                </button>
+
+            </form>
+
+            <p>
+                <a href="dashboard.html">Back to Dashboard</a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>E-Tech - E-Waste Management System</h3>
+
+        <p>
+            Responsible e-waste management for a cleaner future.
+        </p>
+
+        <p>
+            © 2026 E-Tech. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
