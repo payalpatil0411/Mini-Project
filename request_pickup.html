@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Request Pickup - E-Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>E-Tech</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+    <section class="pickup-page">
+
+        <div class="pickup-box">
+
+            <h2>Request E-Waste Pickup</h2>
+
+            <p>
+                Enter your details to schedule
+                an e-waste collection.
+            </p>
+
+            <form action="my_requests.html">
+
+                <label>Full Name</label>
+                <input type="text"
+                       placeholder="Enter your full name"
+                       required>
+
+                <label>Phone Number</label>
+                <input type="tel"
+                       placeholder="Enter your phone number"
+                       required>
+
+                <label>Pickup Address</label>
+                <textarea rows="3"
+                          placeholder="Enter your full address"
+                          required></textarea>
+
+                <label>City</label>
+                <input type="text"
+                       placeholder="Enter your city"
+                       required>
+
+                <label>Pickup Date</label>
+                <input type="date" required>
+
+                <label>Preferred Time</label>
+                <select required>
+                    <option value="">Select a time</option>
+                    <option>Morning (9 AM - 12 PM)</option>
+                    <option>Afternoon (12 PM - 3 PM)</option>
+                    <option>Evening (3 PM - 6 PM)</option>
+                </select>
+
+                <label>Additional Instructions</label>
+                <textarea rows="3"
+                          placeholder="Any extra information"></textarea>
+
+                <button type="submit">Submit Pickup Request</button>
+
+            </form>
+
+            <p>
+                <a href="dashboard.html">Back to Dashboard</a>
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <h3>E-Tech - E-Waste Management System</h3>
+        <p>Responsible e-waste management for a cleaner future.</p>
+        <p>© 2026 E-Tech. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
